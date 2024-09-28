@@ -10,9 +10,6 @@ class MyWindow(QMainWindow, form_class):
         super().__init__()
         self.setupUi(self)
 
-        self.pushbutton.clicked.connect(self.show_message)
-
-
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     myWindow = MyWindow()
